@@ -24,28 +24,8 @@ Welcome to the Yoga Classes Admission Form project! This application allows user
 
 - Node.js provides the runtime and express js framework is used to build the api with /data and /save
 
-## Entity-Relationship (ER) Diagram:
-
-+----------------------+
-| Participants         |
-+----------------------+
-| id (PK)              |
-| name                 |
-| email                |
-| age                  |
-| selected_batch       |  |
-+----------------------+
-
-
-## SQL Table:
-
-CREATE TABLE Participants (
-  id INT PRIMARY KEY AUTO_INCREMENT,
-  name VARCHAR(255) NOT NULL,
-  email VARCHAR(255) NOT NULL,
-  age INT NOT NULL CHECK (age >= 18 AND age <= 65),
-  selected_batch VARCHAR(20) NOT NULL,
-);
+For Backend Part:
+https://github.com/khushi-kumari22/Yoga-Classes-Backend.git
 
 
 
